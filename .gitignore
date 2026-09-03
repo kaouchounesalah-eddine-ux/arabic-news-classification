@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets
+donnees/articles.json
+donnees/*.csv
+
+# Model files
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+src/arabert_news_classifier/
